@@ -60,6 +60,5 @@
 - 🌐 [Временно недоступен]()
 - 💬 Discord: [Временно недоступен]()
 - 🧠 GitHub: [github.com/ElysiumSMP](https://github.com/FreedomDevs)
-- 📬 Email: freedomdevs@example.com
 
 
