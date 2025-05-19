@@ -59,7 +59,7 @@
 
 ## 🔗 Ссылки
 
-- 🌐 [elysium-smp.fun](https://elysium-smp.fun)
+- 🌐 Syte: [elysium-smp.fun](https://elysium-smp.fun)
 - 💬 Discord: [Временно недоступен]()
 - 🧠 GitHub: [github.com/ElysiumSMP](https://github.com/FreedomDevs)
 
