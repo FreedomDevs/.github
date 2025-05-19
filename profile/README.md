@@ -1,4 +1,4 @@
-# 🌌 ElysiumSMP
+ # 🌌 ElysiumSMP
 
 Добро пожаловать в **ElysiumSMP** — команду, создающую уникальный Minecraft-проект с полноценным **лорным миром**, собственным лаунчером, сайтом и плагинами. Здесь каждый игрок — часть большой истории.
 
@@ -57,7 +57,7 @@
 
 ## 🔗 Ссылки
 
-- 🌐 [Временно недоступен]()
+- 🌐 [elysium-smp.fun](https://elysium-smp.fun)
 - 💬 Discord: [Временно недоступен]()
 - 🧠 GitHub: [github.com/ElysiumSMP](https://github.com/FreedomDevs)
 
