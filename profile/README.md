@@ -26,7 +26,7 @@
 
 ## 🔗 Ссылки
 
-- 🌐 Syte: [elysium-smp.fun](https://elysium-smp.fun)
+- 🌐 Site: [elysium-smp.fun](https://elysium-smp.fun)
 - 💬 Discord: [Перейти](https://discord.gg/9XmE6xCf6b)
 - 💬 Telegram: [t.me/fdtplace](https://t.me/fdtplace)
 - 🧠 GitHub: [github.com/ElysiumSMP](https://github.com/FreedomDevs)
