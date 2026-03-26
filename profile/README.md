@@ -8,8 +8,8 @@
 
 - **Java, Kotlin** — разработка сервера и плагинов
 - **ReactJS** — фронтенд сайта
-- **Node.is + NestJS, C++ + Drogon, Rust + Axum, Python + FastAPI, Go + Gin** — серверная логика и API
-- **Docker, GitHub Actions** — автоматизация и развёртывание
+- **Node.js + NestJS, C++ + Drogon, Rust + Axum, Python + FastAPI, Go + Gin** — серверная логика и API
+- **Docker, GitHub Actions, Bash, Python** — автоматизация и развёртывание
 - **PostgreSQL, Redis** — хранилище данных и кеш
 
 ---
