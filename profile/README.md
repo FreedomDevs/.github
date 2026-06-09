@@ -24,6 +24,7 @@
 
 ## 🔗 Ссылки
 
+- Maven репо (плагины): [maven.mcbeeland.ru](https://maven.mcbeeland.ru/)
 - 🌐 Site: [elysium-smp.fun](https://elysium-smp.fun)
 - 💬 Discord: [Перейти](https://discord.gg/9XmE6xCf6b)
 - 💬 Telegram: [t.me/fdtplace](https://t.me/fdtplace)
