@@ -29,8 +29,12 @@ jobs:
         echo "144.31.239.101 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBLdSp9g8YNV4T5YpzlCdWQj/qbj9HY2PcPkyPGqFXWH"  >> ~/.ssh/known_hosts
         chmod 644 ~/.ssh/known_hosts
 
-        echo "Передаем образ по SSH-потоку напрямую в docker load..."
+        echo "Сохраняем образ"
         docker save ${{ inputs.SERVICE_NAME }}:latest -o image.tar
+
+        echo "Передаём образ по scp"
         scp image.tar ${{ secrets.VPS_SSH_USER }}@144.31.239.101:/tmp/image.tar
+
+        echo "Перезапускаем docker-compose"
         ssh ${{ secrets.VPS_SSH_USER }}@144.31.239.101 "sudo docker load -i /tmp/image.tar && rm /tmp/image.tar && sudo /usr/local/bin/deploy/deploy"
 
