@@ -30,6 +30,7 @@ jobs:
         chmod 644 ~/.ssh/known_hosts
 
         echo "Передаем образ по SSH-потоку напрямую в docker load..."
-        docker save ${{ inputs.SERVICE_NAME }}:latest | ssh -T ${{ secrets.VPS_SSH_USER }}@144.31.239.101 "docker load"
-        ssh ${{ secrets.VPS_SSH_USER }}@144.31.239.101 "/usr/local/bin/deploy/deploy"
+        docker save ${{ inputs.SERVICE_NAME }}:latest -o image.tar
+        scp image.tar ${{ secrets.VPS_SSH_USER }}@144.31.239.101:/tmp/image.tar
+        ssh ${{ secrets.VPS_SSH_USER }}@144.31.239.101 "sudo docker load -i /tmp/image.tar && rm /tmp/image.tar && sudo /usr/local/bin/deploy/deploy"
 
