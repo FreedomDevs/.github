@@ -1,0 +1,33 @@
+name: Build and Deploy via SSH Stream
+
+on:
+  workflow_dispatch:
+
+env:
+  SERVICE_NAME: "svc-users"
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: Build Docker Image
+      run: docker build -t ${{ env.SERVICE_NAME }}:latest .
+
+    - name: Install SSH Key
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.VPS_SSH_KEY }}" > ~/.ssh/id_ed25519
+        chmod 600 ~/.ssh/id_ed25519
+        echo "144.31.239.101 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBLdSp9g8YNV4T5YpzlCdWQj/qbj9HY2PcPkyPGqFXWH"  >> ~/.ssh/known_hosts
+        chmod 644 ~/.ssh/known_hosts
+
+        echo "Передаем образ по SSH-потоку напрямую в docker load..."
+        docker save ${{ env.SERVICE_NAME }}:latest | ssh ${{ secrets.VPS_SSH_USER }}@144.31.239.101 "sudo /usr/local/bin/deploy/deploy-svc-users"
+
