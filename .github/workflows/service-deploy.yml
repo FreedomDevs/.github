@@ -32,5 +32,5 @@ jobs:
         chmod 644 ~/.ssh/known_hosts
 
         echo "Сохраняем образ"
-        docker save ${{ inputs.SERVICE_NAME }}:latest | ssh ${{ secrets.VPS_SSH_USER }}@144.31.239.101 "sudo docker load && sudo /usr/local/bin/deploy/deploy"
+        docker save ${{ inputs.SERVICE_NAME }}:latest | zstd -3 | ssh ${{ secrets.VPS_SSH_USER }}@144.31.239.101 "zstd -d | sudo docker load && sudo /usr/local/bin/deploy/deploy"
 
