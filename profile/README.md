@@ -25,7 +25,7 @@
 ### ⚙️ Backend Development
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,c,cpp,rust,python,go,zig&perline=7" alt="Backend Languages" />
+    <img src="https://skillicons.dev/icons?i=ts,c,cpp,rust,python,go,zig,lua&perline=7" alt="Backend Languages" />
   </a>
 </p>
 
