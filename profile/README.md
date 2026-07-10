@@ -18,7 +18,7 @@
 ### 🌐 Frontend Development
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,handlebars,css,scss,js,ts,react,nextjs&perline=7" alt="Frontend Tech" />
+    <img src="https://skillicons.dev/icons?i=html,hbs,css,scss,js,ts,react,nextjs&perline=7" alt="Frontend Tech" />
   </a>
 </p>
 
