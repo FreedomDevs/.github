@@ -57,8 +57,8 @@
 
 ---
 <p align="center">
-  <a href="https://elysium-smp.fun">
-    <img src="https://img.shields.io/badge/Website-elysium--smp.fun-DC7FA6?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=20232a" alt="Website" />
+  <a href="https://elysiac.fun">
+    <img src="https://img.shields.io/badge/Website-elysiac.fun-DC7FA6?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=20232a" alt="Website" />
   </a>
 
   
