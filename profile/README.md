@@ -31,6 +31,15 @@
 
 > **Используемые фреймворки:** `NestJS` • `FastAPI` • `Gin` • `Axum` • `Drogon`
 
+### 🖥️ ElysiaClient Development
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=cpp,kotlin,cs&perline=3" alt="ElysiaClient Tech" />
+  </a>
+</p>
+
+> **Client:** `Kotlin Multiplatform` • **Linux/macOS Wrapper:** `C++ / Qt` • **Windows Wrapper:** `C#`
+
 ### 🎮 Minecraft Development (Plugins & Libs)
 <p align="left">
   <a href="https://skillicons.dev">
