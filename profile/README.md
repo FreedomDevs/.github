@@ -18,14 +18,14 @@
 ### 🌐 Frontend Development
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,scss,js,ts,react,nextjs&perline=7" alt="Frontend Tech" />
+    <img src="https://skillicons.dev/icons?i=html,css,scss,js,ts,react,nextjs,svelte&perline=8" alt="Frontend Tech" />
   </a>
 </p>
 
 ### ⚙️ Backend Development
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,c,cpp,rust,python,go,zig,lua&perline=7" alt="Backend Languages" />
+    <img src="https://skillicons.dev/icons?i=ts,c,cpp,rust,python,go,zig,lua&perline=8" alt="Backend Languages" />
   </a>
 </p>
 
